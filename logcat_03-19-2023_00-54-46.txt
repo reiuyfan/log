@@ -1,0 +1,794 @@
+<<< log_count = 264 >>>
+[03-19 00:54:25.136 1938:3104 I/ActivityTaskManager]
+START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon bnds=[849,1982][1055,2097]} from uid 10303
+
+[03-19 00:54:25.159 1938:3104 D/CoreBackPreview]
+Window{1d9d9a7 u0 Splash Screen top.qwq2333.nullgram}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@cd2d1fd, mPriority=0}
+
+[03-19 00:54:25.164 1938:2012 I/ActivityManager]
+Start proc 16461:top.qwq2333.nullgram/u0a506 for next-top-activity {top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon}
+
+[03-19 00:54:25.249 16461:16461 V/GraphicsEnvironment]
+ANGLE Developer option for 'top.qwq2333.nullgram' set to: 'default'
+
+[03-19 00:54:25.249 16461:16461 V/GraphicsEnvironment]
+ANGLE GameManagerService for top.qwq2333.nullgram: false
+
+[03-19 00:54:25.260 16461:16461 I/FirebaseCrashlytics]
+Initializing Firebase Crashlytics 18.2.11 for top.qwq2333.nullgram
+
+[03-19 00:54:25.305 16461:16461 D/Nullgram]
+module path -> /data/app/~~w74WnAMoUZ521qb5OQDofg==/top.qwq2333.nullgram-klAyeqlCJCeJ83NxwPiDTw==/base.apk
+
+[03-19 00:54:26.042 1938:2012 I/ActivityManager]
+Start proc 18567:com.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0i18 for  {top.qwq2333.nullgram/org.chromium.content.app.SandboxedProcessService0:0}
+
+[03-19 00:54:26.094 1938:12593 D/ConnectivityService]
+requestNetwork for uid/pid:10506/16461 activeRequest: null callbackRequest: 401 [NetworkRequest [ REQUEST id=402, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10506 RequestorUid: 10506 RequestorPkg: top.qwq2333.nullgram UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+
+[03-19 00:54:26.103 3177:3177 D/PhoneSwitcherNetworkRequstListener]
+got request NetworkRequest [ REQUEST id=402, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10506 RequestorUid: 10506 RequestorPkg: top.qwq2333.nullgram UnderlyingNetworks: Null] ]
+
+[03-19 00:54:26.104 16461:16461 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) load, size = 5892, fileSize = 5896
+
+[03-19 00:54:26.104 16461:16461 D/tgnet]
+Config(0xb40000705ea82a40, /data/user/0/top.qwq2333.nullgram/files/dc1conf.dat) load, size = 36, fileSize = 40
+
+[03-19 00:54:26.104 16461:16461 D/tgnet]
+Config(0xb40000705ea84160, /data/user/0/top.qwq2333.nullgram/files/dc2conf.dat) load, size = 36, fileSize = 40
+
+[03-19 00:54:26.104 16461:16461 D/tgnet]
+Config(0xb40000705ea82ea0, /data/user/0/top.qwq2333.nullgram/files/dc3conf.dat) load, size = 36, fileSize = 40
+
+[03-19 00:54:26.105 16461:16461 D/tgnet]
+Config(0xb40000705ea81b40, /data/user/0/top.qwq2333.nullgram/files/dc4conf.dat) load, size = 36, fileSize = 40
+
+[03-19 00:54:26.105 16461:16461 D/tgnet]
+Config(0xb40000705ea82540, /data/user/0/top.qwq2333.nullgram/files/dc5conf.dat) load, size = 36, fileSize = 40
+
+[03-19 00:54:26.107 1938:2751 D/UntrustedWifiNetworkFactory]
+got request NetworkRequest [ REQUEST id=402, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10506 RequestorUid: 10506 RequestorPkg: top.qwq2333.nullgram UnderlyingNetworks: Null] ]
+
+[03-19 00:54:26.109 1938:2751 D/OemPaidWifiNetworkFactory]
+got request NetworkRequest [ REQUEST id=402, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10506 RequestorUid: 10506 RequestorPkg: top.qwq2333.nullgram UnderlyingNetworks: Null] ]
+
+[03-19 00:54:26.109 1938:2751 D/MultiInternetWifiNetworkFactory]
+got request NetworkRequest [ REQUEST id=402, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10506 RequestorUid: 10506 RequestorPkg: top.qwq2333.nullgram UnderlyingNetworks: Null] ]
+
+[03-19 00:54:26.118 16461:16461 D/tgnet]
+Config(0xb40000705ea8f010, /data/user/0/top.qwq2333.nullgram/files/account1/tgnet.dat) load, size = 1828, fileSize = 1832
+
+[03-19 00:54:26.118 16461:16461 D/tgnet]
+Config(0xb40000705ea8db70, /data/user/0/top.qwq2333.nullgram/files/account1/dc2conf.dat) load, size = 36, fileSize = 40
+
+[03-19 00:54:26.134 16461:16461 D/tgnet]
+Config(0xb40000705ea94a60, /data/user/0/top.qwq2333.nullgram/files/account2/tgnet.dat) load, size = 1828, fileSize = 1832
+
+[03-19 00:54:26.134 16461:16461 D/tgnet]
+Config(0xb40000705ea942e0, /data/user/0/top.qwq2333.nullgram/files/account2/dc2conf.dat) load, size = 36, fileSize = 40
+
+[03-19 00:54:26.141 16461:16461 D/tgnet]
+Config(0xb40000705ea975d0, /data/user/0/top.qwq2333.nullgram/files/account3/tgnet.dat) load, size = 1828, fileSize = 1832
+
+[03-19 00:54:26.141 16461:16461 D/tgnet]
+Config(0xb40000705ea98b60, /data/user/0/top.qwq2333.nullgram/files/account3/dc2conf.dat) load, size = 36, fileSize = 40
+
+[03-19 00:54:26.150 16461:16461 D/tgnet]
+Config(0xb40000705ea9bb80, /data/user/0/top.qwq2333.nullgram/files/account4/tgnet.dat) load, size = 1828, fileSize = 1832
+
+[03-19 00:54:26.150 16461:16461 D/tgnet]
+Config(0xb40000705ea9bef0, /data/user/0/top.qwq2333.nullgram/files/account4/dc2conf.dat) load, size = 36, fileSize = 40
+
+[03-19 00:54:26.158 16461:18584 V/ActivityThread]
+Recovering failed rename /storage/emulated/0/Android/data/top.qwq2333.nullgram/cache/000000000_999999_temp.f to /storage/emulated/0/Android/media/top.qwq2333.nullgram/Nullgram/Nullgram Images/000000000_999999.f
+
+[03-19 00:54:26.164 16461:16461 D/tgnet]
+Config(0xb40000705eaa1d50, /data/user/0/top.qwq2333.nullgram/files/account5/tgnet.dat) load, size = 1828, fileSize = 1832
+
+[03-19 00:54:26.164 16461:16461 D/tgnet]
+Config(0xb40000705eaa13a0, /data/user/0/top.qwq2333.nullgram/files/account5/dc2conf.dat) load, size = 36, fileSize = 40
+
+[03-19 00:54:26.172 16461:16461 D/tgnet]
+Config(0xb40000705eaa4e60, /data/user/0/top.qwq2333.nullgram/files/account6/tgnet.dat) load, size = 1828, fileSize = 1832
+
+[03-19 00:54:26.172 16461:16461 D/tgnet]
+Config(0xb40000705eaa5a90, /data/user/0/top.qwq2333.nullgram/files/account6/dc2conf.dat) load, size = 36, fileSize = 40
+
+[03-19 00:54:26.183 16461:16461 D/tgnet]
+Config(0xb40000705eaa0270, /data/user/0/top.qwq2333.nullgram/files/account7/tgnet.dat) load, size = 1828, fileSize = 1832
+
+[03-19 00:54:26.183 16461:16461 D/tgnet]
+Config(0xb40000705eaa8b00, /data/user/0/top.qwq2333.nullgram/files/account7/dc2conf.dat) load, size = 36, fileSize = 40
+
+[03-19 00:54:26.208 4015:4258 I/MediaProvider]
+Deleted 1 0 0 0 0 0 0 items on external_primary due to top.qwq2333.nullgram
+
+[03-19 00:54:26.216 16461:18584 V/ActivityThread]
+Recovering failed rename /storage/emulated/0/Android/data/top.qwq2333.nullgram/cache/000000000_999999_temp.f to /storage/emulated/0/Android/media/top.qwq2333.nullgram/Nullgram/Nullgram Video/000000000_999999.f
+
+[03-19 00:54:26.231 4015:8848 I/MediaProvider]
+Deleted 1 0 0 0 0 0 0 items on external_primary due to top.qwq2333.nullgram
+
+[03-19 00:54:26.278 16461:18600 D/tgnet]
+Config(0xb40000705ea82540, /data/user/0/top.qwq2333.nullgram/files/dc5conf.dat) start write config
+
+[03-19 00:54:26.279 16461:18600 D/tgnet]
+Config(0xb40000705ea82540, /data/user/0/top.qwq2333.nullgram/files/dc5conf.dat) fileno = 239
+
+[03-19 00:54:26.280 16461:18600 D/tgnet]
+Config(0xb40000705ea82540, /data/user/0/top.qwq2333.nullgram/files/dc5conf.dat) config write ok
+
+[03-19 00:54:26.281 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) start write config
+
+[03-19 00:54:26.281 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) fileno = 239
+
+[03-19 00:54:26.281 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) config write ok
+
+[03-19 00:54:26.364 1938:10773 D/ConnectivityService]
+requestNetwork for uid/pid:10506/16461 activeRequest: null callbackRequest: 404 [NetworkRequest [ REQUEST id=405, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10506 RequestorUid: 10506 RequestorPkg: top.qwq2333.nullgram UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647
+
+[03-19 00:54:26.372 1938:10773 D/CoreBackPreview]
+Window{27757d u0 top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@3d278c3, mPriority=0}
+
+[03-19 00:54:26.384 3177:3177 D/PhoneSwitcherNetworkRequstListener]
+got request NetworkRequest [ REQUEST id=405, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10506 RequestorUid: 10506 RequestorPkg: top.qwq2333.nullgram UnderlyingNetworks: Null] ]
+
+[03-19 00:54:26.390 1938:2751 D/UntrustedWifiNetworkFactory]
+got request NetworkRequest [ REQUEST id=405, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10506 RequestorUid: 10506 RequestorPkg: top.qwq2333.nullgram UnderlyingNetworks: Null] ]
+
+[03-19 00:54:26.392 1938:2751 D/OemPaidWifiNetworkFactory]
+got request NetworkRequest [ REQUEST id=405, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10506 RequestorUid: 10506 RequestorPkg: top.qwq2333.nullgram UnderlyingNetworks: Null] ]
+
+[03-19 00:54:26.392 1938:2751 D/MultiInternetWifiNetworkFactory]
+got request NetworkRequest [ REQUEST id=405, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10506 RequestorUid: 10506 RequestorPkg: top.qwq2333.nullgram UnderlyingNetworks: Null] ]
+
+[03-19 00:54:26.502 1938:2727 I/input_focus]
+[Focus entering 27757d top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon (server),reason=Window became focusable. Previous reason: NOT_VISIBLE]
+
+[03-19 00:54:26.506 1938:2001 I/ActivityTaskManager]
+Displayed top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon: +1s357ms
+
+[03-19 00:54:26.502 16461:16461 I/auditd]
+type=1400 audit(0.0:377367): avc: denied { read } for comm="Thread-16" name="drivers" dev="proc" ino=4026531852 scontext=u:r:untrusted_app:s0:c250,c257,c512,c768 tcontext=u:object_r:proc_tty_drivers:s0 tclass=file permissive=0 app=top.qwq2333.nullgram
+
+[03-19 00:54:26.502 16461:16461 W/Thread-16]
+type=1400 audit(0.0:377367): avc: denied { read } for name="drivers" dev="proc" ino=4026531852 scontext=u:r:untrusted_app:s0:c250,c257,c512,c768 tcontext=u:object_r:proc_tty_drivers:s0 tclass=file permissive=0 app=top.qwq2333.nullgram
+
+[03-19 00:54:26.506 16461:16461 I/auditd]
+type=1400 audit(0.0:377368): avc: denied { read } for comm="Thread-16" name="u:object_r:qemu_hw_prop:s0" dev="tmpfs" ino=13615 scontext=u:r:untrusted_app:s0:c250,c257,c512,c768 tcontext=u:object_r:qemu_hw_prop:s0 tclass=file permissive=0 app=top.qwq2333.nullgram
+
+[03-19 00:54:26.506 16461:16461 W/Thread-16]
+type=1400 audit(0.0:377368): avc: denied { read } for name="u:object_r:qemu_hw_prop:s0" dev="tmpfs" ino=13615 scontext=u:r:untrusted_app:s0:c250,c257,c512,c768 tcontext=u:object_r:qemu_hw_prop:s0 tclass=file permissive=0 app=top.qwq2333.nullgram
+
+[03-19 00:54:26.506 16461:16461 I/auditd]
+type=1400 audit(0.0:377369): avc: denied { read } for comm="Thread-16" name="u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=13616 scontext=u:r:untrusted_app:s0:c250,c257,c512,c768 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=0 app=top.qwq2333.nullgram
+
+[03-19 00:54:26.506 16461:16461 W/Thread-16]
+type=1400 audit(0.0:377369): avc: denied { read } for name="u:object_r:qemu_sf_lcd_density_prop:s0" dev="tmpfs" ino=13616 scontext=u:r:untrusted_app:s0:c250,c257,c512,c768 tcontext=u:object_r:qemu_sf_lcd_density_prop:s0 tclass=file permissive=0 app=top.qwq2333.nullgram
+
+[03-19 00:54:26.506 16461:16461 I/auditd]
+type=1400 audit(0.0:377370): avc: denied { read } for comm="Thread-16" name="u:object_r:serialno_prop:s0" dev="tmpfs" ino=13629 scontext=u:r:untrusted_app:s0:c250,c257,c512,c768 tcontext=u:object_r:serialno_prop:s0 tclass=file permissive=0 app=top.qwq2333.nullgram
+
+[03-19 00:54:26.506 16461:16461 W/Thread-16]
+type=1400 audit(0.0:377370): avc: denied { read } for name="u:object_r:serialno_prop:s0" dev="tmpfs" ino=13629 scontext=u:r:untrusted_app:s0:c250,c257,c512,c768 tcontext=u:object_r:serialno_prop:s0 tclass=file permissive=0 app=top.qwq2333.nullgram
+
+[03-19 00:54:26.506 16461:16461 I/auditd]
+type=1400 audit(0.0:377371): avc: denied { read } for comm="Thread-16" name="devices" dev="proc" ino=4026532032 scontext=u:r:untrusted_app:s0:c250,c257,c512,c768 tcontext=u:object_r:proc:s0 tclass=file permissive=0 app=top.qwq2333.nullgram
+
+[03-19 00:54:26.506 16461:16461 W/Thread-16]
+type=1400 audit(0.0:377371): avc: denied { read } for name="devices" dev="proc" ino=4026532032 scontext=u:r:untrusted_app:s0:c250,c257,c512,c768 tcontext=u:object_r:proc:s0 tclass=file permissive=0 app=top.qwq2333.nullgram
+
+[03-19 00:54:26.562 1938:10773 W/InputManager-JNI]
+Input channel object '1d9d9a7 Splash Screen top.qwq2333.nullgram (client)' was disposed without first being removed with the input manager!
+
+[03-19 00:54:26.731 16461:18629 D/tgnet]
+Config(0xb40000705ea9bef0, /data/user/0/top.qwq2333.nullgram/files/account4/dc2conf.dat) start write config
+
+[03-19 00:54:26.731 16461:18629 D/tgnet]
+Config(0xb40000705ea9bef0, /data/user/0/top.qwq2333.nullgram/files/account4/dc2conf.dat) fileno = 318
+
+[03-19 00:54:26.731 16461:18617 D/tgnet]
+Config(0xb40000705ea942e0, /data/user/0/top.qwq2333.nullgram/files/account2/dc2conf.dat) start write config
+
+[03-19 00:54:26.731 16461:18609 D/tgnet]
+Config(0xb40000705ea8db70, /data/user/0/top.qwq2333.nullgram/files/account1/dc2conf.dat) start write config
+
+[03-19 00:54:26.731 16461:18617 D/tgnet]
+Config(0xb40000705ea942e0, /data/user/0/top.qwq2333.nullgram/files/account2/dc2conf.dat) fileno = 287
+
+[03-19 00:54:26.731 16461:18609 D/tgnet]
+Config(0xb40000705ea8db70, /data/user/0/top.qwq2333.nullgram/files/account1/dc2conf.dat) fileno = 297
+
+[03-19 00:54:26.732 16461:18623 D/tgnet]
+Config(0xb40000705ea98b60, /data/user/0/top.qwq2333.nullgram/files/account3/dc2conf.dat) start write config
+
+[03-19 00:54:26.732 16461:18623 D/tgnet]
+Config(0xb40000705ea98b60, /data/user/0/top.qwq2333.nullgram/files/account3/dc2conf.dat) fileno = 320
+
+[03-19 00:54:26.733 16461:18635 D/tgnet]
+Config(0xb40000705eaa13a0, /data/user/0/top.qwq2333.nullgram/files/account5/dc2conf.dat) start write config
+
+[03-19 00:54:26.733 16461:18635 D/tgnet]
+Config(0xb40000705eaa13a0, /data/user/0/top.qwq2333.nullgram/files/account5/dc2conf.dat) fileno = 322
+
+[03-19 00:54:26.733 16461:18623 D/tgnet]
+Config(0xb40000705ea98b60, /data/user/0/top.qwq2333.nullgram/files/account3/dc2conf.dat) config write ok
+
+[03-19 00:54:26.733 16461:18623 D/tgnet]
+Config(0xb40000705ea975d0, /data/user/0/top.qwq2333.nullgram/files/account3/tgnet.dat) start write config
+
+[03-19 00:54:26.733 16461:18623 D/tgnet]
+Config(0xb40000705ea975d0, /data/user/0/top.qwq2333.nullgram/files/account3/tgnet.dat) fileno = 320
+
+[03-19 00:54:26.734 16461:18635 D/tgnet]
+Config(0xb40000705eaa13a0, /data/user/0/top.qwq2333.nullgram/files/account5/dc2conf.dat) config write ok
+
+[03-19 00:54:26.734 16461:18635 D/tgnet]
+Config(0xb40000705eaa1d50, /data/user/0/top.qwq2333.nullgram/files/account5/tgnet.dat) start write config
+
+[03-19 00:54:26.734 16461:18635 D/tgnet]
+Config(0xb40000705eaa1d50, /data/user/0/top.qwq2333.nullgram/files/account5/tgnet.dat) fileno = 322
+
+[03-19 00:54:26.734 16461:18609 D/tgnet]
+Config(0xb40000705ea8db70, /data/user/0/top.qwq2333.nullgram/files/account1/dc2conf.dat) config write ok
+
+[03-19 00:54:26.734 16461:18609 D/tgnet]
+Config(0xb40000705ea8f010, /data/user/0/top.qwq2333.nullgram/files/account1/tgnet.dat) start write config
+
+[03-19 00:54:26.735 16461:18609 D/tgnet]
+Config(0xb40000705ea8f010, /data/user/0/top.qwq2333.nullgram/files/account1/tgnet.dat) fileno = 297
+
+[03-19 00:54:26.735 16461:18635 D/tgnet]
+Config(0xb40000705eaa1d50, /data/user/0/top.qwq2333.nullgram/files/account5/tgnet.dat) config write ok
+
+[03-19 00:54:26.735 16461:18609 D/tgnet]
+Config(0xb40000705ea8f010, /data/user/0/top.qwq2333.nullgram/files/account1/tgnet.dat) config write ok
+
+[03-19 00:54:26.735 16461:18623 D/tgnet]
+Config(0xb40000705ea975d0, /data/user/0/top.qwq2333.nullgram/files/account3/tgnet.dat) config write ok
+
+[03-19 00:54:26.737 16461:18629 D/tgnet]
+Config(0xb40000705ea9bef0, /data/user/0/top.qwq2333.nullgram/files/account4/dc2conf.dat) config write ok
+
+[03-19 00:54:26.737 16461:18617 D/tgnet]
+Config(0xb40000705ea942e0, /data/user/0/top.qwq2333.nullgram/files/account2/dc2conf.dat) config write ok
+
+[03-19 00:54:26.737 16461:18617 D/tgnet]
+Config(0xb40000705ea94a60, /data/user/0/top.qwq2333.nullgram/files/account2/tgnet.dat) start write config
+
+[03-19 00:54:26.737 16461:18641 D/tgnet]
+Config(0xb40000705eaa5a90, /data/user/0/top.qwq2333.nullgram/files/account6/dc2conf.dat) start write config
+
+[03-19 00:54:26.737 16461:18629 D/tgnet]
+Config(0xb40000705ea9bb80, /data/user/0/top.qwq2333.nullgram/files/account4/tgnet.dat) start write config
+
+[03-19 00:54:26.737 16461:18617 D/tgnet]
+Config(0xb40000705ea94a60, /data/user/0/top.qwq2333.nullgram/files/account2/tgnet.dat) fileno = 302
+
+[03-19 00:54:26.737 16461:18641 D/tgnet]
+Config(0xb40000705eaa5a90, /data/user/0/top.qwq2333.nullgram/files/account6/dc2conf.dat) fileno = 287
+
+[03-19 00:54:26.737 16461:18629 D/tgnet]
+Config(0xb40000705ea9bb80, /data/user/0/top.qwq2333.nullgram/files/account4/tgnet.dat) fileno = 313
+
+[03-19 00:54:26.738 16461:18647 D/tgnet]
+Config(0xb40000705eaa8b00, /data/user/0/top.qwq2333.nullgram/files/account7/dc2conf.dat) start write config
+
+[03-19 00:54:26.738 16461:18647 D/tgnet]
+Config(0xb40000705eaa8b00, /data/user/0/top.qwq2333.nullgram/files/account7/dc2conf.dat) fileno = 314
+
+[03-19 00:54:26.738 16461:18641 D/tgnet]
+Config(0xb40000705eaa5a90, /data/user/0/top.qwq2333.nullgram/files/account6/dc2conf.dat) config write ok
+
+[03-19 00:54:26.738 16461:18641 D/tgnet]
+Config(0xb40000705eaa4e60, /data/user/0/top.qwq2333.nullgram/files/account6/tgnet.dat) start write config
+
+[03-19 00:54:26.738 16461:18629 D/tgnet]
+Config(0xb40000705ea9bb80, /data/user/0/top.qwq2333.nullgram/files/account4/tgnet.dat) config write ok
+
+[03-19 00:54:26.738 16461:18617 D/tgnet]
+Config(0xb40000705ea94a60, /data/user/0/top.qwq2333.nullgram/files/account2/tgnet.dat) config write ok
+
+[03-19 00:54:26.738 16461:18641 D/tgnet]
+Config(0xb40000705eaa4e60, /data/user/0/top.qwq2333.nullgram/files/account6/tgnet.dat) fileno = 287
+
+[03-19 00:54:26.738 16461:18647 D/tgnet]
+Config(0xb40000705eaa8b00, /data/user/0/top.qwq2333.nullgram/files/account7/dc2conf.dat) config write ok
+
+[03-19 00:54:26.739 16461:18641 D/tgnet]
+Config(0xb40000705eaa4e60, /data/user/0/top.qwq2333.nullgram/files/account6/tgnet.dat) config write ok
+
+[03-19 00:54:26.739 16461:18647 D/tgnet]
+Config(0xb40000705eaa0270, /data/user/0/top.qwq2333.nullgram/files/account7/tgnet.dat) start write config
+
+[03-19 00:54:26.739 16461:18647 D/tgnet]
+Config(0xb40000705eaa0270, /data/user/0/top.qwq2333.nullgram/files/account7/tgnet.dat) fileno = 287
+
+[03-19 00:54:26.739 16461:18647 D/tgnet]
+Config(0xb40000705eaa0270, /data/user/0/top.qwq2333.nullgram/files/account7/tgnet.dat) config write ok
+
+[03-19 00:54:27.088 16461:18600 D/tgnet]
+Config(0xb40000705ea82540, /data/user/0/top.qwq2333.nullgram/files/dc5conf.dat) start write config
+
+[03-19 00:54:27.088 16461:18600 D/tgnet]
+Config(0xb40000705ea82540, /data/user/0/top.qwq2333.nullgram/files/dc5conf.dat) fileno = 303
+
+[03-19 00:54:27.090 16461:18600 D/tgnet]
+Config(0xb40000705ea82540, /data/user/0/top.qwq2333.nullgram/files/dc5conf.dat) config write ok
+
+[03-19 00:54:27.091 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) start write config
+
+[03-19 00:54:27.091 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) fileno = 303
+
+[03-19 00:54:27.092 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) config write ok
+
+[03-19 00:54:27.104 16461:18600 D/tgnet]
+Config(0xb40000705ea82540, /data/user/0/top.qwq2333.nullgram/files/dc5conf.dat) start write config
+
+[03-19 00:54:27.104 16461:18600 D/tgnet]
+Config(0xb40000705ea82540, /data/user/0/top.qwq2333.nullgram/files/dc5conf.dat) fileno = 304
+
+[03-19 00:54:27.105 16461:18600 D/tgnet]
+Config(0xb40000705ea82540, /data/user/0/top.qwq2333.nullgram/files/dc5conf.dat) config write ok
+
+[03-19 00:54:27.105 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) start write config
+
+[03-19 00:54:27.106 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) fileno = 304
+
+[03-19 00:54:27.107 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) config write ok
+
+[03-19 00:54:27.114 16461:18600 D/tgnet]
+Config(0xb40000705ea84160, /data/user/0/top.qwq2333.nullgram/files/dc2conf.dat) start write config
+
+[03-19 00:54:27.114 16461:18600 D/tgnet]
+Config(0xb40000705ea84160, /data/user/0/top.qwq2333.nullgram/files/dc2conf.dat) fileno = 295
+
+[03-19 00:54:27.115 16461:18600 D/tgnet]
+Config(0xb40000705ea84160, /data/user/0/top.qwq2333.nullgram/files/dc2conf.dat) config write ok
+
+[03-19 00:54:27.115 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) start write config
+
+[03-19 00:54:27.116 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) fileno = 295
+
+[03-19 00:54:27.116 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) config write ok
+
+[03-19 00:54:27.116 16461:18600 D/tgnet]
+Config(0xb40000705ea82a40, /data/user/0/top.qwq2333.nullgram/files/dc1conf.dat) start write config
+
+[03-19 00:54:27.117 16461:18600 D/tgnet]
+Config(0xb40000705ea82a40, /data/user/0/top.qwq2333.nullgram/files/dc1conf.dat) fileno = 295
+
+[03-19 00:54:27.117 16461:18600 D/tgnet]
+Config(0xb40000705ea82a40, /data/user/0/top.qwq2333.nullgram/files/dc1conf.dat) config write ok
+
+[03-19 00:54:27.117 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) start write config
+
+[03-19 00:54:27.117 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) fileno = 295
+
+[03-19 00:54:27.118 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) config write ok
+
+[03-19 00:54:27.186 16461:16461 W/GooglePlayServicesUtil]
+top.qwq2333.nullgram requires the Google Play Store, but it is missing.
+
+[03-19 00:54:27.186 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) start write config
+
+[03-19 00:54:27.187 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) fileno = 263
+
+[03-19 00:54:27.187 16461:18609 D/tgnet]
+Config(0xb40000705ea8f010, /data/user/0/top.qwq2333.nullgram/files/account1/tgnet.dat) start write config
+
+[03-19 00:54:27.187 16461:18623 D/tgnet]
+Config(0xb40000705ea975d0, /data/user/0/top.qwq2333.nullgram/files/account3/tgnet.dat) start write config
+
+[03-19 00:54:27.187 16461:18609 D/tgnet]
+Config(0xb40000705ea8f010, /data/user/0/top.qwq2333.nullgram/files/account1/tgnet.dat) fileno = 325
+
+[03-19 00:54:27.187 16461:18623 D/tgnet]
+Config(0xb40000705ea975d0, /data/user/0/top.qwq2333.nullgram/files/account3/tgnet.dat) fileno = 305
+
+[03-19 00:54:27.187 16461:18617 D/tgnet]
+Config(0xb40000705ea94a60, /data/user/0/top.qwq2333.nullgram/files/account2/tgnet.dat) start write config
+
+[03-19 00:54:27.187 16461:18629 D/tgnet]
+Config(0xb40000705ea9bb80, /data/user/0/top.qwq2333.nullgram/files/account4/tgnet.dat) start write config
+
+[03-19 00:54:27.187 16461:18617 D/tgnet]
+Config(0xb40000705ea94a60, /data/user/0/top.qwq2333.nullgram/files/account2/tgnet.dat) fileno = 326
+
+[03-19 00:54:27.187 16461:18629 D/tgnet]
+Config(0xb40000705ea9bb80, /data/user/0/top.qwq2333.nullgram/files/account4/tgnet.dat) fileno = 327
+
+[03-19 00:54:27.188 16461:18635 D/tgnet]
+Config(0xb40000705eaa1d50, /data/user/0/top.qwq2333.nullgram/files/account5/tgnet.dat) start write config
+
+[03-19 00:54:27.188 16461:18635 D/tgnet]
+Config(0xb40000705eaa1d50, /data/user/0/top.qwq2333.nullgram/files/account5/tgnet.dat) fileno = 328
+
+[03-19 00:54:27.188 16461:18641 D/tgnet]
+Config(0xb40000705eaa4e60, /data/user/0/top.qwq2333.nullgram/files/account6/tgnet.dat) start write config
+
+[03-19 00:54:27.188 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) config write ok
+
+[03-19 00:54:27.189 16461:18647 D/tgnet]
+Config(0xb40000705eaa0270, /data/user/0/top.qwq2333.nullgram/files/account7/tgnet.dat) start write config
+
+[03-19 00:54:27.189 16461:18647 D/tgnet]
+Config(0xb40000705eaa0270, /data/user/0/top.qwq2333.nullgram/files/account7/tgnet.dat) fileno = 329
+
+[03-19 00:54:27.189 16461:18629 D/tgnet]
+Config(0xb40000705ea9bb80, /data/user/0/top.qwq2333.nullgram/files/account4/tgnet.dat) config write ok
+
+[03-19 00:54:27.189 16461:18617 D/tgnet]
+Config(0xb40000705ea94a60, /data/user/0/top.qwq2333.nullgram/files/account2/tgnet.dat) config write ok
+
+[03-19 00:54:27.190 16461:18641 D/tgnet]
+Config(0xb40000705eaa4e60, /data/user/0/top.qwq2333.nullgram/files/account6/tgnet.dat) fileno = 263
+
+[03-19 00:54:27.190 16461:18609 D/tgnet]
+Config(0xb40000705ea8f010, /data/user/0/top.qwq2333.nullgram/files/account1/tgnet.dat) config write ok
+
+[03-19 00:54:27.190 16461:18623 D/tgnet]
+Config(0xb40000705ea975d0, /data/user/0/top.qwq2333.nullgram/files/account3/tgnet.dat) config write ok
+
+[03-19 00:54:27.190 16461:18641 D/tgnet]
+Config(0xb40000705eaa4e60, /data/user/0/top.qwq2333.nullgram/files/account6/tgnet.dat) config write ok
+
+[03-19 00:54:27.190 16461:18635 D/tgnet]
+Config(0xb40000705eaa1d50, /data/user/0/top.qwq2333.nullgram/files/account5/tgnet.dat) config write ok
+
+[03-19 00:54:27.190 16461:18647 D/tgnet]
+Config(0xb40000705eaa0270, /data/user/0/top.qwq2333.nullgram/files/account7/tgnet.dat) config write ok
+
+[03-19 00:54:27.192 16461:18600 D/tgnet]
+Config(0xb40000705ea82a40, /data/user/0/top.qwq2333.nullgram/files/dc1conf.dat) start write config
+
+[03-19 00:54:27.192 16461:18600 D/tgnet]
+Config(0xb40000705ea82a40, /data/user/0/top.qwq2333.nullgram/files/dc1conf.dat) fileno = 263
+
+[03-19 00:54:27.193 16461:18600 D/tgnet]
+Config(0xb40000705ea82a40, /data/user/0/top.qwq2333.nullgram/files/dc1conf.dat) config write ok
+
+[03-19 00:54:27.193 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) start write config
+
+[03-19 00:54:27.194 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) fileno = 263
+
+[03-19 00:54:27.194 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) config write ok
+
+[03-19 00:54:27.304 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) start write config
+
+[03-19 00:54:27.305 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) fileno = 263
+
+[03-19 00:54:27.306 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) config write ok
+
+[03-19 00:54:27.324 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) start write config
+
+[03-19 00:54:27.325 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) fileno = 263
+
+[03-19 00:54:27.326 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) config write ok
+
+[03-19 00:54:27.327 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) start write config
+
+[03-19 00:54:27.327 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) fileno = 263
+
+[03-19 00:54:27.334 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) config write ok
+
+[03-19 00:54:27.397 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) start write config
+
+[03-19 00:54:27.397 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) fileno = 263
+
+[03-19 00:54:27.399 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) config write ok
+
+[03-19 00:54:27.467 16461:18629 D/tgnet]
+Config(0xb40000705ea9bb80, /data/user/0/top.qwq2333.nullgram/files/account4/tgnet.dat) start write config
+
+[03-19 00:54:27.467 16461:18629 D/tgnet]
+Config(0xb40000705ea9bb80, /data/user/0/top.qwq2333.nullgram/files/account4/tgnet.dat) fileno = 263
+
+[03-19 00:54:27.469 16461:18629 D/tgnet]
+Config(0xb40000705ea9bb80, /data/user/0/top.qwq2333.nullgram/files/account4/tgnet.dat) config write ok
+
+[03-19 00:54:27.469 16461:18629 D/tgnet]
+Config(0xb40000705ea9bb80, /data/user/0/top.qwq2333.nullgram/files/account4/tgnet.dat) start write config
+
+[03-19 00:54:27.469 16461:18629 D/tgnet]
+Config(0xb40000705ea9bb80, /data/user/0/top.qwq2333.nullgram/files/account4/tgnet.dat) fileno = 263
+
+[03-19 00:54:27.470 16461:18629 D/tgnet]
+Config(0xb40000705ea9bb80, /data/user/0/top.qwq2333.nullgram/files/account4/tgnet.dat) config write ok
+
+[03-19 00:54:27.485 16461:18623 D/tgnet]
+Config(0xb40000705ea975d0, /data/user/0/top.qwq2333.nullgram/files/account3/tgnet.dat) start write config
+
+[03-19 00:54:27.485 16461:18623 D/tgnet]
+Config(0xb40000705ea975d0, /data/user/0/top.qwq2333.nullgram/files/account3/tgnet.dat) fileno = 263
+
+[03-19 00:54:27.487 16461:18623 D/tgnet]
+Config(0xb40000705ea975d0, /data/user/0/top.qwq2333.nullgram/files/account3/tgnet.dat) config write ok
+
+[03-19 00:54:27.487 16461:18623 D/tgnet]
+Config(0xb40000705ea975d0, /data/user/0/top.qwq2333.nullgram/files/account3/tgnet.dat) start write config
+
+[03-19 00:54:27.488 16461:18647 D/tgnet]
+Config(0xb40000705eaa0270, /data/user/0/top.qwq2333.nullgram/files/account7/tgnet.dat) start write config
+
+[03-19 00:54:27.490 16461:18617 D/tgnet]
+Config(0xb40000705ea94a60, /data/user/0/top.qwq2333.nullgram/files/account2/tgnet.dat) start write config
+
+[03-19 00:54:27.490 16461:18617 D/tgnet]
+Config(0xb40000705ea94a60, /data/user/0/top.qwq2333.nullgram/files/account2/tgnet.dat) fileno = 308
+
+[03-19 00:54:27.491 16461:18647 D/tgnet]
+Config(0xb40000705eaa0270, /data/user/0/top.qwq2333.nullgram/files/account7/tgnet.dat) fileno = 297
+
+[03-19 00:54:27.491 16461:18609 D/tgnet]
+Config(0xb40000705ea8f010, /data/user/0/top.qwq2333.nullgram/files/account1/tgnet.dat) start write config
+
+[03-19 00:54:27.491 16461:18609 D/tgnet]
+Config(0xb40000705ea8f010, /data/user/0/top.qwq2333.nullgram/files/account1/tgnet.dat) fileno = 326
+
+[03-19 00:54:27.492 16461:18609 D/tgnet]
+Config(0xb40000705ea8f010, /data/user/0/top.qwq2333.nullgram/files/account1/tgnet.dat) config write ok
+
+[03-19 00:54:27.492 16461:18609 D/tgnet]
+Config(0xb40000705ea8f010, /data/user/0/top.qwq2333.nullgram/files/account1/tgnet.dat) start write config
+
+[03-19 00:54:27.492 16461:18609 D/tgnet]
+Config(0xb40000705ea8f010, /data/user/0/top.qwq2333.nullgram/files/account1/tgnet.dat) fileno = 316
+
+[03-19 00:54:27.493 16461:18647 D/tgnet]
+Config(0xb40000705eaa0270, /data/user/0/top.qwq2333.nullgram/files/account7/tgnet.dat) config write ok
+
+[03-19 00:54:27.494 16461:18617 D/tgnet]
+Config(0xb40000705ea94a60, /data/user/0/top.qwq2333.nullgram/files/account2/tgnet.dat) config write ok
+
+[03-19 00:54:27.494 16461:18609 D/tgnet]
+Config(0xb40000705ea8f010, /data/user/0/top.qwq2333.nullgram/files/account1/tgnet.dat) config write ok
+
+[03-19 00:54:27.494 16461:18617 D/tgnet]
+Config(0xb40000705ea94a60, /data/user/0/top.qwq2333.nullgram/files/account2/tgnet.dat) start write config
+
+[03-19 00:54:27.494 16461:18617 D/tgnet]
+Config(0xb40000705ea94a60, /data/user/0/top.qwq2333.nullgram/files/account2/tgnet.dat) fileno = 287
+
+[03-19 00:54:27.496 16461:18623 D/tgnet]
+Config(0xb40000705ea975d0, /data/user/0/top.qwq2333.nullgram/files/account3/tgnet.dat) fileno = 263
+
+[03-19 00:54:27.496 16461:18647 D/tgnet]
+Config(0xb40000705eaa0270, /data/user/0/top.qwq2333.nullgram/files/account7/tgnet.dat) start write config
+
+[03-19 00:54:27.497 16461:18647 D/tgnet]
+Config(0xb40000705eaa0270, /data/user/0/top.qwq2333.nullgram/files/account7/tgnet.dat) fileno = 297
+
+[03-19 00:54:27.497 16461:18623 D/tgnet]
+Config(0xb40000705ea975d0, /data/user/0/top.qwq2333.nullgram/files/account3/tgnet.dat) config write ok
+
+[03-19 00:54:27.497 16461:18617 D/tgnet]
+Config(0xb40000705ea94a60, /data/user/0/top.qwq2333.nullgram/files/account2/tgnet.dat) config write ok
+
+[03-19 00:54:27.497 16461:18647 D/tgnet]
+Config(0xb40000705eaa0270, /data/user/0/top.qwq2333.nullgram/files/account7/tgnet.dat) config write ok
+
+[03-19 00:54:27.514 16461:18641 D/tgnet]
+Config(0xb40000705eaa4e60, /data/user/0/top.qwq2333.nullgram/files/account6/tgnet.dat) start write config
+
+[03-19 00:54:27.515 16461:18641 D/tgnet]
+Config(0xb40000705eaa4e60, /data/user/0/top.qwq2333.nullgram/files/account6/tgnet.dat) fileno = 263
+
+[03-19 00:54:27.516 16461:18641 D/tgnet]
+Config(0xb40000705eaa4e60, /data/user/0/top.qwq2333.nullgram/files/account6/tgnet.dat) config write ok
+
+[03-19 00:54:27.517 16461:18641 D/tgnet]
+Config(0xb40000705eaa4e60, /data/user/0/top.qwq2333.nullgram/files/account6/tgnet.dat) start write config
+
+[03-19 00:54:27.517 16461:18641 D/tgnet]
+Config(0xb40000705eaa4e60, /data/user/0/top.qwq2333.nullgram/files/account6/tgnet.dat) fileno = 263
+
+[03-19 00:54:27.518 16461:18641 D/tgnet]
+Config(0xb40000705eaa4e60, /data/user/0/top.qwq2333.nullgram/files/account6/tgnet.dat) config write ok
+
+[03-19 00:54:27.524 1938:2727 I/input_interaction]
+Interaction with: 27757d top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon (server), [Gesture Monitor] swipe-up (server), [Gesture Monitor] edge-swipe (server), PointerEventDispatcher0 (server), 
+
+[03-19 00:54:27.541 16461:18635 D/tgnet]
+Config(0xb40000705eaa1d50, /data/user/0/top.qwq2333.nullgram/files/account5/tgnet.dat) start write config
+
+[03-19 00:54:27.542 16461:18635 D/tgnet]
+Config(0xb40000705eaa1d50, /data/user/0/top.qwq2333.nullgram/files/account5/tgnet.dat) fileno = 315
+
+[03-19 00:54:27.543 16461:18635 D/tgnet]
+Config(0xb40000705eaa1d50, /data/user/0/top.qwq2333.nullgram/files/account5/tgnet.dat) config write ok
+
+[03-19 00:54:27.543 16461:18635 D/tgnet]
+Config(0xb40000705eaa1d50, /data/user/0/top.qwq2333.nullgram/files/account5/tgnet.dat) start write config
+
+[03-19 00:54:27.544 16461:18635 D/tgnet]
+Config(0xb40000705eaa1d50, /data/user/0/top.qwq2333.nullgram/files/account5/tgnet.dat) fileno = 306
+
+[03-19 00:54:27.544 16461:18635 D/tgnet]
+Config(0xb40000705eaa1d50, /data/user/0/top.qwq2333.nullgram/files/account5/tgnet.dat) config write ok
+
+[03-19 00:54:27.568 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) start write config
+
+[03-19 00:54:27.568 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) fileno = 284
+
+[03-19 00:54:27.570 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) config write ok
+
+[03-19 00:54:31.813 16461:18600 D/tgnet]
+Config(0xb40000705ea81b40, /data/user/0/top.qwq2333.nullgram/files/dc4conf.dat) start write config
+
+[03-19 00:54:31.813 16461:18600 D/tgnet]
+Config(0xb40000705ea81b40, /data/user/0/top.qwq2333.nullgram/files/dc4conf.dat) fileno = 247
+
+[03-19 00:54:31.815 16461:18600 D/tgnet]
+Config(0xb40000705ea81b40, /data/user/0/top.qwq2333.nullgram/files/dc4conf.dat) config write ok
+
+[03-19 00:54:31.815 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) start write config
+
+[03-19 00:54:31.815 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) fileno = 247
+
+[03-19 00:54:31.816 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) config write ok
+
+[03-19 00:54:32.223 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) start write config
+
+[03-19 00:54:32.223 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) fileno = 66
+
+[03-19 00:54:32.225 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) config write ok
+
+[03-19 00:54:32.396 1938:10773 D/CoreBackPreview]
+startBackNavigation currentTask=Task{39f43b5 #72 type=standard A=10506:top.qwq2333.nullgram}, topRunningActivity=ActivityRecord{27e4fa8 u0 top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon} t72}, callbackInfo=OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@3d278c3, mPriority=0}, currentFocus=Window{27757d u0 top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon}
+
+[03-19 00:54:32.398 1938:10773 I/input_cancel]
+[27757d top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon (server),reason=input channel stole pointer stream]
+
+[03-19 00:54:32.398 1938:10773 I/InputDispatcher]
+Channel [Gesture Monitor] edge-swipe (server) is stealing touch from [27757d top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon (server), [Gesture Monitor] swipe-up (server)]
+
+[03-19 00:54:32.837 16461:18600 D/tgnet]
+Config(0xb40000705ea81b40, /data/user/0/top.qwq2333.nullgram/files/dc4conf.dat) start write config
+
+[03-19 00:54:32.837 16461:18600 D/tgnet]
+Config(0xb40000705ea81b40, /data/user/0/top.qwq2333.nullgram/files/dc4conf.dat) fileno = 69
+
+[03-19 00:54:32.839 16461:18600 D/tgnet]
+Config(0xb40000705ea81b40, /data/user/0/top.qwq2333.nullgram/files/dc4conf.dat) config write ok
+
+[03-19 00:54:32.839 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) start write config
+
+[03-19 00:54:32.840 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) fileno = 69
+
+[03-19 00:54:32.840 16461:18600 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) config write ok
+
+[03-19 00:54:33.270 1938:2727 I/input_interaction]
+Interaction with: 27757d top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon (server), [Gesture Monitor] swipe-up (server), [Gesture Monitor] edge-swipe (server), PointerEventDispatcher0 (server), 
+
+[03-19 00:54:38.962 1938:1978 D/CoreBackPreview]
+Window{62c9ee1 u0 top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@1e9ac7, mPriority=0}
+
+[03-19 00:54:40.913 16461:16461 E/VRI[DefaultIcon]]
+Attempting to destroy the window while drawing!
+  window=android.view.ViewRootImpl@f162c15, title=top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon
+
+[03-19 00:54:40.945 1938:10773 D/CoreBackPreview]
+Window{62c9ee1 u0 top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon}: Setting back callback null
+
+[03-19 00:54:40.947 1938:1978 W/InputManager-JNI]
+Input channel object '62c9ee1 top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon (client)' was disposed without first being removed with the input manager!
+
+[03-19 00:54:41.928 1938:1978 D/CoreBackPreview]
+startBackNavigation currentTask=Task{39f43b5 #72 type=standard A=10506:top.qwq2333.nullgram}, topRunningActivity=ActivityRecord{27e4fa8 u0 top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon} t72}, callbackInfo=OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@3d278c3, mPriority=0}, currentFocus=Window{27757d u0 top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon}
+
+[03-19 00:54:41.929 1938:10773 I/input_cancel]
+[27757d top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon (server),reason=input channel stole pointer stream]
+
+[03-19 00:54:41.929 1938:10773 I/InputDispatcher]
+Channel [Gesture Monitor] edge-swipe (server) is stealing touch from [27757d top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon (server), [Gesture Monitor] swipe-up (server)]
+
+[03-19 00:54:42.392 1938:2727 I/input_interaction]
+Interaction with: 27757d top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon (server), [Gesture Monitor] swipe-up (server), [Gesture Monitor] edge-swipe (server), PointerEventDispatcher0 (server), 
+
+[03-19 00:54:42.422 1938:1978 I/input_cancel]
+[27757d top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon (server),reason=input channel stole pointer stream]
+
+[03-19 00:54:42.423 1938:1978 I/InputDispatcher]
+Channel [Gesture Monitor] edge-swipe (server) is stealing touch from [27757d top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon (server), [Gesture Monitor] swipe-up (server)]
+
+[03-19 00:54:42.429 1938:10773 D/CoreBackPreview]
+startBackNavigation currentTask=Task{39f43b5 #72 type=standard A=10506:top.qwq2333.nullgram}, topRunningActivity=ActivityRecord{27e4fa8 u0 top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon} t72}, callbackInfo=OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@3d278c3, mPriority=0}, currentFocus=Window{27757d u0 top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon}
+
+[03-19 00:54:43.217 1938:2727 I/input_interaction]
+Interaction with: 27757d top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon (server), [Gesture Monitor] swipe-up (server), [Gesture Monitor] edge-swipe (server), PointerEventDispatcher0 (server), 
+
+[03-19 00:54:43.294 1938:3465 I/input_cancel]
+[27757d top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon (server),reason=input channel stole pointer stream]
+
+[03-19 00:54:43.295 1938:3465 I/InputDispatcher]
+Channel [Gesture Monitor] swipe-up (server) is stealing touch from [27757d top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon (server), [Gesture Monitor] edge-swipe (server)]
+
+[03-19 00:54:43.353 1938:2727 I/input_focus]
+[Focus leaving 27757d top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon (server),reason=Waiting for window because NOT_VISIBLE]
+
+[03-19 00:54:43.854 16461:16461 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) start write config
+
+[03-19 00:54:43.854 16461:16461 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) fileno = 171
+
+[03-19 00:54:43.858 16461:16461 D/tgnet]
+Config(0xb40000705ea842a0, /data/user/0/top.qwq2333.nullgram/files/tgnet.dat) config write ok
+
+[03-19 00:54:44.524 1938:2004 I/ActivityManager]
+Killing 16461:top.qwq2333.nullgram/u0a506 (adj 905): remove task
+
+[03-19 00:54:44.562 1938:10773 W/ActivityManager]
+Scheduling restart of crashed service top.qwq2333.nullgram/org.chromium.content.app.SandboxedProcessService0:0 in 1000ms for connection
+
+[03-19 00:54:44.654 1938:12593 D/ConnectivityService]
+ConnectivityService NetworkRequestInfo binderDied(uid/pid:10506/16461, [NetworkRequest [ REQUEST id=402, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10506 RequestorUid: 10506 RequestorPkg: top.qwq2333.nullgram UnderlyingNetworks: Null] ]], android.os.BinderProxy@ff0e31c)
+
+[03-19 00:54:44.654 1938:2759 D/ConnectivityService]
+releasing NetworkRequest [ REQUEST id=402, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10506 RequestorUid: 10506 RequestorPkg: top.qwq2333.nullgram UnderlyingNetworks: Null] ] (release request)
+
+[03-19 00:54:44.655 1938:2140 D/ConnectivityService]
+ConnectivityService NetworkRequestInfo binderDied(uid/pid:10506/16461, [NetworkRequest [ REQUEST id=405, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10506 RequestorUid: 10506 RequestorPkg: top.qwq2333.nullgram UnderlyingNetworks: Null] ]], android.os.BinderProxy@26b6b25)
+
+[03-19 00:54:44.655 1938:1979 I/WindowManager]
+WIN DEATH: Window{27757d u0 top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon}
+
+[03-19 00:54:44.655 1938:1979 W/InputManager-JNI]
+Input channel object '27757d top.qwq2333.nullgram/org.telegram.messenger.DefaultIcon (client)' was disposed without first being removed with the input manager!
+
+[03-19 00:54:44.656 1938:3198 D/ConnectivityService]
+ConnectivityService NetworkRequestInfo binderDied(uid/pid:10506/16461, [NetworkRequest [ LISTEN id=403, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&FOREGROUND&NOT_VCN_MANAGED Uid: 10506 RequestorUid: 10506 RequestorPkg: top.qwq2333.nullgram UnderlyingNetworks: Null] ]], android.os.BinderProxy@60014fa)
+
+[03-19 00:54:44.656 1938:2759 D/ConnectivityService]
+releasing NetworkRequest [ REQUEST id=405, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED Uid: 10506 RequestorUid: 10506 RequestorPkg: top.qwq2333.nullgram UnderlyingNetworks: Null] ] (release request)
+
+[03-19 00:54:44.677 1938:2010 W/UsageStatsService]
+Unexpected activity event reported! (top.qwq2333.nullgram/org.telegram.ui.LaunchActivity event : 23 instanceId : 198462411)
+
